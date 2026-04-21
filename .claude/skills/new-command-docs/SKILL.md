@@ -55,7 +55,6 @@ Count locations (search for the old number):
 - `<h2>` heading "{N} ArcKit Commands" (~line 670)
 - `<span id="visible-count">` and adjacent text (~line 729): `Showing <span id="visible-count">{N}</span> of {N} commands` (TWO numbers on this line)
 - Gemini CLI section "all {N} commands" (~line 1423)
-- Footer "All {N} commands documented" (~line 1558)
 
 **Important**: The `visible-count` span and its adjacent count BOTH need updating. The JavaScript filter counter uses the span, while the static text shows the total.
 
